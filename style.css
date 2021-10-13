@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    padding-left: 800px;
+  
+}
+img{
+    width: 600px;
+    height: 600px;
+    margin-bottom: -900px;
+    margin-top: 100px;
+}
+h1{
+    font-size: 90px;
+    padding-left: 650px;
+}
+
+.jogo{
+    padding-left: 700px;
+    margin-top: 200px;
+    display: flex;
+}
+.velha{
+    display: flex;
+}
+
+#tabela{
+    width:500px;
+    height: 500px;
+    border:solid 3px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+}
+.casa{
+    width: 33.33%;
+    height: 33.33%;
+    border:solid 1px black;
+   background-color: white;
+}
